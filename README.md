@@ -26,7 +26,8 @@ On request, we can also share the exact images used for the training.
 ## Scripts and usage
 
 * `check_results.ipynb`: evaluation of the model predictions used for the paper
-* `evaluate_models_multiclass.py` training code
+* `evaluate_models_multiclass.py` : training code
+* `predict.py` : predict rule for images using a pre-trained model
 
 ## Usage `evaluate_models_multiclass.py`
 
@@ -58,7 +59,25 @@ stg7, rasmus 2022
 ```
 
 ## Usage `predict.py`
-TODO
+```
+usage: predict.py [-h] [--image_folder IMAGE_FOLDER]
+                  [--report_name REPORT_NAME] [--model MODEL]
+
+predict
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --image_folder IMAGE_FOLDER
+                        folder where images are stored (default:
+                        data/avt_image_db/jpg/)
+  --report_name REPORT_NAME
+                        report name of predictions (default:
+                        prediction_rules.json)
+  --model MODEL         model to be used (default:
+                        models/rules_2_small/ResNet50_best_model.hdf5)
+
+stg7 2023
+```
 
 
 ## Acknowledgments
