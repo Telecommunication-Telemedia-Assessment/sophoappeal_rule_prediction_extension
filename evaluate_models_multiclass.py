@@ -240,7 +240,7 @@ def main(_):
     # argument parsing
     parser = argparse.ArgumentParser(
         description="dnn evaluation for multiple image aesthetic rules",
-        epilog="stg7, rasmus 2022",
+        epilog="stg7, rasmus 2023",
         formatter_class=argparse.ArgumentDefaultsHelpFormatter
     )
     parser.add_argument("--data", default="data/rules_2_small", type=str, help="data to be used")
