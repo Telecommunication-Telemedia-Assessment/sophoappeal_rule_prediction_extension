@@ -89,8 +89,7 @@ If you use this software or data in your research, please include a link to the 
   author={Steve {G{\"o}ring} and Rasmus Merten and Alexander Raake},
   title="DNN-based Photo Rule Prediction using Photo Tags",
   booktitle="15th International Conference on Quality of Multimedia Experience (QoMEX)",
-  year={2023},
-  note={to appear}
+  year={2023}
 }
 
 @article{goering2023imageappeal,
